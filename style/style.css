@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.Navigation {
+  background: #ffa154;
+  height: 20vh;
+}
+
+.Header .top3 :nth-child(1) {
+  background: #7a0000;
+  height: 100vh;
+  margin: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.Header .top3 .sub-elements :nth-child(1) {
+  background: #a10805;
+  height: 80vh;
+  margin: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.Header .top3 .sub-elements :nth-child(2) {
+  background: #c6262e;
+  margin: 1rem;
+  margin-right: 0;
+  margin-left: 0;
+  height: 80vh;
+}
+
+.Header .other-elements .element{
+  height: 30vh;
+  background: #d1ff82;
+  margin: 1rem;
+  margin-right: 0;
+
+}
+
+.Main {
+  height: 100vh;
+  background: #28bca3;
+  margin: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}

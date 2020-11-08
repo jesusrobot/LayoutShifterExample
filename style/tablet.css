@@ -1,0 +1,27 @@
+.Navigation {
+  height: 10vh;
+}
+.Header {
+  display: flex;
+}
+.Header .top3 {
+  width: 60%;
+}
+.Header .top3 .sub-elements {
+  display: flex;
+}
+.Header .top3 :nth-child(1) {
+  height: 50vh;
+}
+.Header .top3 .sub-elements :nth-child(1) {
+  height: 40vh;
+  width: 50%;
+  margin-right: 1rem;
+}
+.Header .top3 .sub-elements :nth-child(2) {
+  height: 40vh;
+  width: 50%;
+}
+.Header .other-elements {
+  width: 40%;
+}
